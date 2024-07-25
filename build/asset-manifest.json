@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.940ee8db.css",
+    "main.js": "/static/js/main.af497fb5.js",
+    "static/js/787.da0a4492.chunk.js": "/static/js/787.da0a4492.chunk.js",
+    "static/media/banner-moon-3.svg": "/static/media/banner-moon-3.9f17f2ea092eed8a02ea018affd810ac.svg",
+    "static/media/handphone.svg": "/static/media/handphone.65efaa534d9403614949e2ba66607def.svg",
+    "static/media/banner-earth.svg": "/static/media/banner-earth.4a806a2f3e476300311aabb836532c2c.svg",
+    "static/media/1.png": "/static/media/1.0bcc5bed9feca146cfa1.png",
+    "static/media/appstore.svg": "/static/media/appstore.cad950ed408d6cca2286c75a3f5c26c3.svg",
+    "static/media/google-play.svg": "/static/media/google-play.dec3223fac72cd1a9f1a4480e12ce63a.svg",
+    "static/media/3.png": "/static/media/3.31b2a2cdda9948d77977.png",
+    "static/media/2.png": "/static/media/2.536935dc3de4991a67e3.png",
+    "static/media/keuntungan-3.svg": "/static/media/keuntungan-3.92d0ed0d581780a5de53f3835e2fd637.svg",
+    "static/media/keuntungan-4.svg": "/static/media/keuntungan-4.6efa13e8af36f45a9c0e6cec9000093f.svg",
+    "static/media/keuntungan-1.svg": "/static/media/keuntungan-1.0d0ce5dab3ba4b8e92dc6a6b7321a397.svg",
+    "static/media/keuntungan-2.svg": "/static/media/keuntungan-2.c0bde5eb3d4b20efabef36948d23ad06.svg",
+    "static/media/roadmap-imp-4.svg": "/static/media/roadmap-imp-4.a2a6a169e947a8d3597ee07f9835500a.svg",
+    "static/media/roadmap-imp-1.svg": "/static/media/roadmap-imp-1.34e3f131494ae8a9783ae73942a3bbeb.svg",
+    "service-worker.js": "/service-worker.js",
+    "static/media/roadmap-imp-3.svg": "/static/media/roadmap-imp-3.307d30c35ba9d092661efd7b1252c23d.svg",
+    "static/media/roadmap-imp-2.svg": "/static/media/roadmap-imp-2.75a2644f982b71ec4bd629d24d3c5d7b.svg",
+    "static/media/logo-konkoin.svg": "/static/media/logo-konkoin.40f234659d453b841e488fe0c2b97a9b.svg",
+    "static/media/pie-chart.svg": "/static/media/pie-chart.5bd27a7046ad3903859cde5244e86695.svg",
+    "static/media/logoNavbar.svg": "/static/media/logoNavbar.363ad7b6be0d2f22cac6f67b94f70799.svg",
+    "static/media/logoKonkoinText.svg": "/static/media/logoKonkoinText.5915f29c8026981a0955091b38eeb512.svg",
+    "static/media/konkoin-gray.svg": "/static/media/konkoin-gray.e4038b8f1dfb0e947b242c36009ed166.svg",
+    "index.html": "/index.html",
+    "static/media/backgorundPink.svg": "/static/media/backgorundPink.884fad0a9b42189c5c8c62b9cdcad3a6.svg",
+    "static/media/logo-konkoin2.svg": "/static/media/logo-konkoin2.96b221e798f1d7d6bd23d2c3089ad1e0.svg",
+    "main.940ee8db.css.map": "/static/css/main.940ee8db.css.map",
+    "main.af497fb5.js.map": "/static/js/main.af497fb5.js.map",
+    "787.da0a4492.chunk.js.map": "/static/js/787.da0a4492.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.940ee8db.css",
+    "static/js/main.af497fb5.js"
+  ]
+}
