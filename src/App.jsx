@@ -7,6 +7,8 @@ import "./index.css"
 import LandingPage from "./page/LandingPage"
 import CMS from "./page/CMS"
 
+// test update Cpanel 26/07/24
+
 function App() {
   return (
     <div className="App text-inter bg-koni-dark" style={{ overflow : "hidden"}}>
