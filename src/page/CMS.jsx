@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react"
 import CMSBanner from "./cms-banner"
-import CMSCountdown from "./cms-countdown"
 import CMSKonkoin from "./cms-konkoin"
 import CMSRoadmap from "./cms-roadmap"
 import CMSBenefit from "./cms-benefit"
@@ -30,7 +29,6 @@ export default function CMS() {
       button1: "About",
       button2: "Buy Now",
     },
-    countDown: "dummy-date",
     konkoin: {
       header: "Apa itu Konkoin?",
       description:
@@ -96,7 +94,6 @@ export default function CMS() {
         <div className="row" style={{ marginTop: 25, marginBottom : 100 }}>
           <div className="col-sm-6  px-3 mt-5">
             <CMSBanner />
-            <CMSCountdown />
             <CMSRoadmap />
             <CMSBento/>
             <CMSMedia/>

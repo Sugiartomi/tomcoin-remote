@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router"
 import Navbar from "../component/navbar"
 
 // Image
@@ -9,7 +8,6 @@ import imgLogoKonkoin from "../asset/logoNavbar.svg"
 
 import imgBackgroundEarth from "../asset/banner-earth.svg"
 import Banner from "../component/banner"
-import Countdown from "../component/countdown"
 import Konkoin from "../component/konkoin"
 import Roadmap from "../component/roadmap"
 import Takeonomic from "../component/takeonomic"
@@ -21,15 +19,16 @@ import BottomNavbar from "../component/bottom-navbar"
 
 export default function LandingPage() {
   const [width, setWidth] = useState(window.innerWidth)
-  const [height, setHeight] = useState(window.innerHeight)
   const updateDimensions = () => {
     setWidth(window.innerWidth)
-    setHeight(window.innerHeight)
   }
   useEffect(() => {
     window.addEventListener("resize", updateDimensions)
     return () => window.removeEventListener("resize", updateDimensions)
   }, [])
+
+  const isMobile = width <= 540
+  const isTablet = width <= 992
 
   return (
     <>
@@ -39,13 +38,14 @@ export default function LandingPage() {
             backgroundImage: `linear-gradient(to bottom, rgba(37,37,37,0), #080808),url(${imgBackgroung1})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            height: 1000,
+            backgroundPosition: "center top",
+            minHeight: isMobile ? 620 : isTablet ? 720 : 860,
             marginTop: -30,
+            paddingBottom: isMobile ? 48 : 80,
           }}
         >
           <Navbar />
           <Banner width={width} />
-          <Countdown width={width} />
         </div>
         <div id="about">
           <Konkoin width={width} />
@@ -59,8 +59,9 @@ export default function LandingPage() {
             backgroundImage: `linear-gradient(to bottom, rgba(37,37,37,0), #080808),url(${imgBackgroundEarth})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition: width <= 540 ? "top" : "",
-            height: 1200,
+            backgroundPosition: isMobile ? "top" : "center",
+            minHeight: isMobile ? "auto" : 1200,
+            paddingBottom: isMobile ? 40 : 0,
           }}
         >
           <Takeonomic width={width} />
@@ -76,32 +77,37 @@ export default function LandingPage() {
 
         <div
           className="container"
-          style={{ marginTop: 100, paddingBottom: width <= 540 ? 0 : 150 }}
+          style={{ marginTop: isMobile ? 48 : 100, paddingBottom: isMobile ? 24 : 150 }}
         ></div>
 
         <div
           className="bg-koni-danger"
-          style={{ height: 80, marginBottom: width <= 992? 78 : 0 }}
+          style={{
+            minHeight: isMobile ? 110 : 80,
+            marginBottom: isTablet ? 78 : 0,
+            padding: isMobile ? "16px 0" : 0,
+          }}
         >
           <div
             className={
-              width <= 540
-                ? "container text-center h-100"
+              isMobile
+                ? "container text-center d-flex flex-column align-items-center justify-content-center h-100 gap-2"
                 : "container d-flex align-items-center h-100 justify-content-between"
             }
           >
             <img
               src={imgLogoKonkoin}
               className="img-fluid"
-              style={{ width: 200 }}
-              alt=""
+              style={{ width: isMobile ? 160 : 200 }}
+              alt="Konkoin"
             />
-            <div className="text-white">Konkoin © 2024. All Right reserved</div>
+            <div className="text-white" style={{ fontSize: isMobile ? 13 : 16 }}>
+              Konkoin © 2024. All Right reserved
+            </div>
           </div>
         </div>
       </div>
-      { width <= 992?  <BottomNavbar /> : ""}
-     
+      {isTablet ? <BottomNavbar /> : null}
     </>
   )
 }

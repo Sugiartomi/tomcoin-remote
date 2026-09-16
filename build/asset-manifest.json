@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.940ee8db.css",
-    "main.js": "/static/js/main.af497fb5.js",
-    "static/js/787.da0a4492.chunk.js": "/static/js/787.da0a4492.chunk.js",
+    "main.css": "/static/css/main.9824650b.css",
+    "main.js": "/static/js/main.a7461e2c.js",
+    "static/js/472.51e7bd14.chunk.js": "/static/js/472.51e7bd14.chunk.js",
     "static/media/banner-moon-3.svg": "/static/media/banner-moon-3.9f17f2ea092eed8a02ea018affd810ac.svg",
     "static/media/handphone.svg": "/static/media/handphone.65efaa534d9403614949e2ba66607def.svg",
     "static/media/banner-earth.svg": "/static/media/banner-earth.4a806a2f3e476300311aabb836532c2c.svg",
     "static/media/1.png": "/static/media/1.0bcc5bed9feca146cfa1.png",
     "static/media/appstore.svg": "/static/media/appstore.cad950ed408d6cca2286c75a3f5c26c3.svg",
-    "static/media/google-play.svg": "/static/media/google-play.dec3223fac72cd1a9f1a4480e12ce63a.svg",
     "static/media/3.png": "/static/media/3.31b2a2cdda9948d77977.png",
     "static/media/2.png": "/static/media/2.536935dc3de4991a67e3.png",
     "static/media/keuntungan-3.svg": "/static/media/keuntungan-3.92d0ed0d581780a5de53f3835e2fd637.svg",
@@ -24,16 +23,21 @@
     "static/media/pie-chart.svg": "/static/media/pie-chart.5bd27a7046ad3903859cde5244e86695.svg",
     "static/media/logoNavbar.svg": "/static/media/logoNavbar.363ad7b6be0d2f22cac6f67b94f70799.svg",
     "static/media/logoKonkoinText.svg": "/static/media/logoKonkoinText.5915f29c8026981a0955091b38eeb512.svg",
-    "static/media/konkoin-gray.svg": "/static/media/konkoin-gray.e4038b8f1dfb0e947b242c36009ed166.svg",
     "index.html": "/index.html",
     "static/media/backgorundPink.svg": "/static/media/backgorundPink.884fad0a9b42189c5c8c62b9cdcad3a6.svg",
+    "static/media/liputan6.svg": "/static/media/liputan6.1d963d3444402f77a3e9691f64a9cde6.svg",
+    "static/media/tvone.svg": "/static/media/tvone.6046ea49a7dc06d0981af634d41c9722.svg",
+    "static/media/inews.svg": "/static/media/inews.8a4d8863851723211b6617c1b350b4a4.svg",
     "static/media/logo-konkoin2.svg": "/static/media/logo-konkoin2.96b221e798f1d7d6bd23d2c3089ad1e0.svg",
-    "main.940ee8db.css.map": "/static/css/main.940ee8db.css.map",
-    "main.af497fb5.js.map": "/static/js/main.af497fb5.js.map",
-    "787.da0a4492.chunk.js.map": "/static/js/787.da0a4492.chunk.js.map"
+    "static/media/tribunnews.svg": "/static/media/tribunnews.250ad663bc7d3e5c5b868656cf640d01.svg",
+    "static/media/antaranews.svg": "/static/media/antaranews.452139daa2d6e731e992d3f2e334bc35.svg",
+    "static/media/kompas.svg": "/static/media/kompas.adb25dd1288be32dcddd5a9b8c4267d9.svg",
+    "main.9824650b.css.map": "/static/css/main.9824650b.css.map",
+    "main.a7461e2c.js.map": "/static/js/main.a7461e2c.js.map",
+    "472.51e7bd14.chunk.js.map": "/static/js/472.51e7bd14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.940ee8db.css",
-    "static/js/main.af497fb5.js"
+    "static/css/main.9824650b.css",
+    "static/js/main.a7461e2c.js"
   ]
 }

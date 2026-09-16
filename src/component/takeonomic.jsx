@@ -17,12 +17,12 @@ export default function Takeonomic({ width }) {
     <>
       <div
         className="container font-inter text-white"
-        style={{ marginTop: width <= 540 ? 200 : 300 }}
+        style={{ marginTop: width <= 540 ? 80 : 300 }}
       >
         {width <= 540 ? (
           <div
-            className=" text-center px-5"
-            style={{ fontWeight: 500, fontSize: 35 , lineHeight : 1.2}}
+            className=" text-center px-3"
+            style={{ fontWeight: 500, fontSize: 28 , lineHeight : 1.2}}
           >
             Keuntungan Memiliki <strong>Konkoin</strong>
           </div>
@@ -47,9 +47,12 @@ export default function Takeonomic({ width }) {
             /> */}
             <img
               src={imgPieChart}
-              className="img-fluid p-5"
+              className="img-fluid"
               alt=""
-              style={{ marginTop: width <= 540 ? 0 : 100 }}
+              style={{
+                marginTop: width <= 540 ? 16 : 100,
+                padding: width <= 540 ? 16 : 48,
+              }}
             />
           </div>
 

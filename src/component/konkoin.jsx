@@ -4,7 +4,7 @@ export default function Konkoin({ width }) {
     <>
       <div
         className="container-fluid"
-        style={{ backgroundImage: "", marginTop: width <= 540 ? -180 : 180 }}
+        style={{ backgroundImage: "", marginTop: width <= 540 ? 40 : 180 }}
       >
         <div className="container font-inter text-white">
           <div className="row p-0 m-0">

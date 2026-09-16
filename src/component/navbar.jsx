@@ -44,8 +44,11 @@ export default function Navbar() {
               <img
                 src={imgLogoNavbar}
                 className="me-3"
-                style={{ height: 50, margin : width <=992 ? "30px 0 -100px 30px" : "" }}
-                alt=""
+                style={{
+                  height: width <= 992 ? 42 : 50,
+                  margin: width <= 992 ? "12px 0 0 0" : "",
+                }}
+                alt="Konkoin"
               />
             </div>
           </a>

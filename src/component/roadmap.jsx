@@ -9,7 +9,7 @@ export default function Roadmap({ width }) {
     <>
       <div
         className="container font-inter text-white"
-        style={{ marginTop: 200 }}
+        style={{ marginTop: width <= 540 ? 80 : 200 }}
       >
         {width <= 540 ? (
           <>
