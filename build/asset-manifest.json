@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9824650b.css",
-    "main.js": "/static/js/main.a7461e2c.js",
-    "static/js/472.51e7bd14.chunk.js": "/static/js/472.51e7bd14.chunk.js",
+    "main.css": "/static/css/main.74da9eb6.css",
+    "main.js": "/static/js/main.4a589d7e.js",
+    "static/js/472.7fdbbf4a.chunk.js": "/static/js/472.7fdbbf4a.chunk.js",
     "static/media/banner-moon-3.svg": "/static/media/banner-moon-3.9f17f2ea092eed8a02ea018affd810ac.svg",
     "static/media/handphone.svg": "/static/media/handphone.65efaa534d9403614949e2ba66607def.svg",
     "static/media/banner-earth.svg": "/static/media/banner-earth.4a806a2f3e476300311aabb836532c2c.svg",
@@ -32,12 +32,12 @@
     "static/media/tribunnews.svg": "/static/media/tribunnews.250ad663bc7d3e5c5b868656cf640d01.svg",
     "static/media/antaranews.svg": "/static/media/antaranews.452139daa2d6e731e992d3f2e334bc35.svg",
     "static/media/kompas.svg": "/static/media/kompas.adb25dd1288be32dcddd5a9b8c4267d9.svg",
-    "main.9824650b.css.map": "/static/css/main.9824650b.css.map",
-    "main.a7461e2c.js.map": "/static/js/main.a7461e2c.js.map",
-    "472.51e7bd14.chunk.js.map": "/static/js/472.51e7bd14.chunk.js.map"
+    "main.74da9eb6.css.map": "/static/css/main.74da9eb6.css.map",
+    "main.4a589d7e.js.map": "/static/js/main.4a589d7e.js.map",
+    "472.7fdbbf4a.chunk.js.map": "/static/js/472.7fdbbf4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9824650b.css",
-    "static/js/main.a7461e2c.js"
+    "static/css/main.74da9eb6.css",
+    "static/js/main.4a589d7e.js"
   ]
 }
